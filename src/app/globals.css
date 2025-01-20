@@ -7,12 +7,12 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
@@ -26,15 +26,33 @@ body {
   }
 }
 
-/* Styling needs to be adjusted, it looks ugly ngl */
-.dotted-paper {
+.dotted-paper-page {
   height: 100vh;
   width: 100vw;
 
   --dot-bg: #faf7eb;
   --dot-color: #999999;
-  --dot-size: 3px;
-  --dot-space: 70px;
+  --dot-size: 1px;
+  --dot-space: 25px;
+  background: linear-gradient(
+        90deg,
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    linear-gradient(
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    var(--dot-color);
+}
+
+.dotted-paper-bg {
+  --dot-bg: #faf7eb;
+  --dot-color: #999999;
+  --dot-size: 1.5px;
+  --dot-space: 25px;
   background: linear-gradient(
         90deg,
         var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),

@@ -1,3 +1,9 @@
+import Navbar from "@/components/navbar/Navbar";
+
 export default function MainPage() {
-  return <div className="dotted-paper">Hi</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
