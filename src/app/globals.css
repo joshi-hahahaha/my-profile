@@ -25,3 +25,26 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Styling needs to be adjusted, it looks ugly ngl */
+.dotted-paper {
+  height: 100vh;
+  width: 100vw;
+
+  --dot-bg: #faf7eb;
+  --dot-color: #999999;
+  --dot-size: 3px;
+  --dot-space: 70px;
+  background: linear-gradient(
+        90deg,
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    linear-gradient(
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    var(--dot-color);
+}
