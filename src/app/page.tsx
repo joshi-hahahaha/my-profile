@@ -13,7 +13,6 @@ export default function MainPage() {
       {/* Navbar on top */}
       <div className="relative z-10">
         <Navbar />
-        <div></div>
       </div>
     </div>
   );
