@@ -2,7 +2,6 @@
 
 import Navbar from "@/components/navbar/Navbar";
 import DrifterStars from "@devil7softwares/react-drifter-stars";
-import Container from "@mui/material/Container";
 
 export default function MainPage() {
   return (
