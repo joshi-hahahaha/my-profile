@@ -14,9 +14,9 @@ export default function MainPage() {
       {/* Navbar on top */}
       <div className="relative z-10">
         <Navbar />
-        <Container className="bg-black">
-          <div>pfp and introduction</div>
-        </Container>
+        <div>
+          <div>pfp and then introduction</div>
+        </div>
       </div>
     </div>
   );
