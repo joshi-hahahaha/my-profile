@@ -10,9 +10,14 @@
   },
   "dependencies": {
     "@devil7softwares/react-drifter-stars": "^1.0.6",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.1",
+    "@mui/material": "^6.4.1",
     "next": "14.2.15",
     "react": "^18",
     "react-dom": "^18",
+    "react-social-icons": "^6.20.0",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
