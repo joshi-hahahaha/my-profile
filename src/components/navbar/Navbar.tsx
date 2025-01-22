@@ -21,18 +21,6 @@ function Navbar() {
             />
           </Button>
         </a>
-        {/* Instagram */}
-        <a
-          href="https://www.instagram.com/joshi_hahahaha?igsh=MW5kZXhjeHdibHM5aQ%3D%3D&utm_source=qr"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button className="p-0">
-            <InstagramIcon
-              sx={{ color: "white", height: "48px", width: "auto" }}
-            />
-          </Button>
-        </a>
         {/* Facebook */}
         <a
           href="https://www.facebook.com/share/19kzC2H3WJ/?mibextid=wwXIfr"
@@ -41,6 +29,18 @@ function Navbar() {
         >
           <Button className="p-0">
             <FacebookIcon
+              sx={{ color: "white", height: "48px", width: "auto" }}
+            />
+          </Button>
+        </a>
+        {/* Instagram */}
+        <a
+          href="https://www.instagram.com/joshi_hahahaha?igsh=MW5kZXhjeHdibHM5aQ%3D%3D&utm_source=qr"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className="p-0">
+            <InstagramIcon
               sx={{ color: "white", height: "48px", width: "auto" }}
             />
           </Button>
