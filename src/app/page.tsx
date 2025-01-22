@@ -11,9 +11,10 @@ export default function MainPage() {
         <DrifterStars />
       </div>
       {/* Navbar on top */}
-      {/* <div className="relative z-10"> */}
-      <Navbar />
-      {/* </div> */}
+      <div className="relative z-10">
+        <Navbar />
+        <div></div>
+      </div>
     </div>
   );
 }
