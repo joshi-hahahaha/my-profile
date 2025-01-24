@@ -4,7 +4,7 @@ import Pfp from "./../../assets/joshi_pfp.jpg";
 
 function ProfileImage() {
   return (
-    <div className="relative aspect-square w-full sm:w-pfp-width-desktop sm:mr-5">
+    <div className="relative aspect-square w-full rounded-2xl overflow-hidden sm:w-pfp-width-desktop mb-5 sm:mr-5">
       <Image
         src={Pfp}
         alt="Picture of me!"

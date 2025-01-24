@@ -15,10 +15,10 @@ export default function MainPage() {
       {/* Navbar on top */}
       <div className="relative z-10">
         <Navbar />
-        <div className="w-full flex rounded-2xl overflow-hidden">
+        <div className="w-full flex flex-col sm:flex-row rounded-2xl overflow-hidden">
           <ProfileImage />
           <div className="relative bg-transparent text-white flex flex-col">
-            <div className="sm:text-7xl">
+            <div className="text-5xl sm:text-7xl">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
@@ -31,7 +31,7 @@ export default function MainPage() {
                 }}
               />
             </div>
-            <div className="sm:text-4xl">
+            <div className="text-lg sm:text-4xl">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
