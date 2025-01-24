@@ -6,8 +6,8 @@ import { Paper } from "@mui/material";
 function ProfileImage() {
   return (
     <Paper
-      sx={{ width: "calc(50% - 10px)" }}
-      className="relative p-1 bg-white overflow-hidden aspect-square rounded-xl"
+      sx={{ width: "calc(33% - 10px)", mr: "20px" }}
+      className="relative aspect-square"
     >
       <Image
         src={Pfp}
