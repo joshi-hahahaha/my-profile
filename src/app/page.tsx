@@ -18,7 +18,7 @@ export default function MainPage() {
         <div className="w-full flex flex-col sm:flex-row rounded-2xl overflow-hidden">
           <ProfileImage />
           <div className="relative bg-transparent text-white flex flex-col">
-            <div className="text-5xl sm:text-7xl">
+            <div className="text-4xl sm:text-7xl">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
@@ -31,7 +31,7 @@ export default function MainPage() {
                 }}
               />
             </div>
-            <div className="text-lg sm:text-4xl">
+            <div className="text-base sm:text-4xl">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter

@@ -7,7 +7,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 function Navbar() {
   return (
     <div className="text-white h-16 sm:h-24 flex items-center justify-center sm:justify-between">
-      <div className="text-3xl">Joshi Ha</div>
+      <div className="text-5xl sm:text-3xl">JOSHI HA</div>
       <div className="hidden sm:flex  sm:w-auto sm:justify-between">
         {/* LinkedIn */}
         <a
