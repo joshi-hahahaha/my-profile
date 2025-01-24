@@ -15,6 +15,9 @@ const config: Config = {
       fontFamily: {
         jbmono: ["var(--font-jetbrains-mono)"],
       },
+      width: {
+        "pfp-width-desktop": "calc(33% - 10px)",
+      },
     },
   },
   plugins: [],

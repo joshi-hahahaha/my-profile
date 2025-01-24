@@ -1,14 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Pfp from "./../../assets/joshi_pfp.jpg";
-import { Paper } from "@mui/material";
 
 function ProfileImage() {
   return (
-    <Paper
-      sx={{ width: "calc(33% - 10px)", mr: "20px" }}
-      className="relative aspect-square"
-    >
+    <div className="relative aspect-square w-full sm:w-pfp-width-desktop sm:mr-5">
       <Image
         src={Pfp}
         alt="Picture of me!"
@@ -16,7 +12,7 @@ function ProfileImage() {
         objectFit="cover" // Crops the image to cover the div
         objectPosition="bottom" // Aligns the image so the bottom is visible
       />
-    </Paper>
+    </div>
   );
 }
 
