@@ -46,3 +46,7 @@ body {
     var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
     var(--tw-sepia) var(--tw-drop-shadow);
 }
+
+.text-450 {
+  font-size: 450px;
+}
