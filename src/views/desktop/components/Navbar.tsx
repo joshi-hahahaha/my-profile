@@ -5,6 +5,7 @@ import { Button } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 import Logo from "@/assets/otter_logo.png";
 
@@ -27,6 +28,18 @@ const Navbar = () => {
         <div className="nav-link">EXPERIENCE</div>
       </div>
       <div className="flex">
+        {/* GitHub */}
+        <a
+          href="https://github.com/joshi-hahahaha"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className="p-0">
+            <GitHubIcon
+              sx={{ color: "black", height: "48px", width: "auto" }}
+            />
+          </Button>
+        </a>
         {/* LinkedIn */}
         <a
           href="https://www.linkedin.com/in/joshi-ha-11b339267"
