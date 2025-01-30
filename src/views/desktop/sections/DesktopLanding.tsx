@@ -3,15 +3,8 @@ import Navbar from "../components/Navbar";
 
 const DesktopLanding = () => {
   return (
-    <div>
+    <div className="w-full h-full p-5 flex flex-col items-center">
       <Navbar />
-      <div>
-        <h1>todo list</h1>
-        <div>logo</div>
-        <div>label</div>
-        <div>links</div>
-        <div>social links</div>
-      </div>
     </div>
   );
 };

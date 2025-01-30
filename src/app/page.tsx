@@ -7,7 +7,7 @@ import MobileApp from "@/views/mobile/MobileApp";
 export default function App() {
   const isMobile: boolean = useIsPhone();
   return (
-    <div className="w-screen h-screen">
+    <div className="w-screen h-screen font-jbmono">
       {isMobile ? <MobileApp /> : <DesktopApp />}
     </div>
   );

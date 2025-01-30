@@ -25,3 +25,16 @@ body {
     text-wrap: balance;
   }
 }
+
+.nav-link-divider {
+  font-size: 12px;
+}
+
+.nav-link {
+  font-size: 16px;
+  transition: font-weight 0.2s ease;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+}
