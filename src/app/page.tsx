@@ -1,10 +1,14 @@
 "use client";
 
-import DesktopMainPage from "@/components/desktop/DesktopMainPage";
 import useIsPhone from "../helpers/hooks/isPhone";
-import MobileMainPage from "@/components/mobile/MobileMainPage";
+import DesktopApp from "@/views/desktop/DesktopApp";
+import MobileApp from "@/views/mobile/MobileApp";
 
 export default function App() {
   const isMobile: boolean = useIsPhone();
-  return isMobile ? <MobileMainPage /> : <DesktopMainPage />;
+  return (
+    <div className="w-screen h-screen">
+      {isMobile ? <MobileApp /> : <DesktopApp />}
+    </div>
+  );
 }
