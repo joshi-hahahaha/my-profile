@@ -37,6 +37,7 @@ body {
 
 .nav-link:hover {
   font-weight: bold;
+  cursor: pointer;
 }
 
 .drop-shadow-strong {
@@ -49,4 +50,8 @@ body {
 
 .text-450 {
   font-size: 450px;
+}
+
+.h-95\/100 {
+  height: 95%;
 }
