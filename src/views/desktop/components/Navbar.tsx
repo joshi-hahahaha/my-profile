@@ -10,7 +10,7 @@ import Logo from "@/assets/otter_logo.png";
 
 const Navbar = () => {
   return (
-    <div className="bg-white text-black w-full h-16 p-4 flex items-center justify-between rounded-3xl">
+    <div className="bg-white text-black w-full h-16 p-4 flex items-center justify-between rounded-3xl drop-shadow-strong">
       <div className="flex space-x-4 items-center">
         <div className="aspect-square rounded-2xl">
           <Image src={Logo} width={55} alt="Otter logo" objectFit="cover" />
