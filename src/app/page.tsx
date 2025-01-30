@@ -21,13 +21,7 @@ export default function MainPage() {
             <div className="text-4xl sm:text-7xl">
               <Typewriter
                 onInit={(typewriter) => {
-                  typewriter
-                    .typeString("I'M JOSHI HA")
-                    .callFunction(() => {
-                      console.log("String typed out!");
-                    })
-                    .start()
-                    .pauseFor(2500);
+                  typewriter.typeString("I'M JOSHI HA").start().pauseFor(2500);
                 }}
               />
             </div>
@@ -37,9 +31,6 @@ export default function MainPage() {
                   typewriter
                     .pauseFor(2500)
                     .typeString("COMPUTER SCIENCE STUDENT @ UNSW")
-                    .callFunction(() => {
-                      console.log("String typed out!");
-                    })
                     .start();
                 }}
               />
