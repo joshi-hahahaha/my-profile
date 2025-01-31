@@ -2,7 +2,7 @@ import React from "react";
 import DrifterStars from "@devil7softwares/react-drifter-stars";
 
 import Navbar from "../components/Navbar";
-import HoriMarquee from "../components/HoriMarquee";
+import NameMarquee from "../components/NameMarquee";
 import Cutout from "../components/Cutout";
 
 const DesktopLanding = () => {
@@ -51,7 +51,7 @@ const DesktopLanding = () => {
       </div>
 
       {/* Main Content */}
-      <HoriMarquee />
+      <NameMarquee />
       <Cutout />
 
       {/* Bottom Left Text */}

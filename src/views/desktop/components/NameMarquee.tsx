@@ -1,7 +1,7 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 
-function HoriMarquee() {
+function NameMarquee() {
   return (
     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
       <Marquee
@@ -15,4 +15,4 @@ function HoriMarquee() {
   );
 }
 
-export default HoriMarquee;
+export default NameMarquee;

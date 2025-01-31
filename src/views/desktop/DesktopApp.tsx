@@ -4,6 +4,7 @@ import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
 
 import DesktopLanding from "./sections/DesktopLanding";
+import AboutMe from "./sections/AboutMe";
 
 const DesktopApp: React.FC = () => {
   return (
@@ -18,8 +19,8 @@ const DesktopApp: React.FC = () => {
               <div className="section bg-custombg block text-white">
                 <DesktopLanding />
               </div>
-              <div className="section bg-green-500 flex justify-center items-center text-white">
-                <p>Section 2</p>
+              <div className="section bg-gradient-to-b from-custombg to-black flex justify-center items-center text-white">
+                <AboutMe />
               </div>
             </ReactFullpage.Wrapper>
           );
