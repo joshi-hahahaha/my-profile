@@ -13,6 +13,7 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         custombg: "#e7ceb3",
+        unswlink: "#c7b39d",
       },
       fontFamily: {
         jbmono: ["var(--font-jetbrains-mono)"],
