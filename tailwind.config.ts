@@ -19,6 +19,10 @@ const config: Config = {
       },
       width: {
         "pfp-width-desktop": "calc(33% - 10px)",
+        "450px": "450px",
+      },
+      height: {
+        "450px": "450px",
       },
     },
   },
