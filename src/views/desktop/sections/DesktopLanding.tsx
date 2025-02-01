@@ -31,7 +31,7 @@ const DesktopLanding = () => {
             href="https://www.unsw.edu.au/study/undergraduate/bachelor-of-computer-science"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white hover:text-stone-200 transition-colors duration-300 ease-in-out"
+            className="text-white hover:text-stone-200 transition-colors duration-300 ease-in-out border-b-2 border-transparent hover:border-stone-200"
           >
             Bachelor of Computer
           </a>
@@ -43,7 +43,7 @@ const DesktopLanding = () => {
             href="https://www.unsw.edu.au/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white hover:text-stone-200 transition-colors duration-300 ease-in-out"
+            className="text-white hover:text-stone-200 transition-colors duration-300 ease-in-out border-b-2 border-transparent hover:border-stone-200"
           >
             UNSW
           </a>
