@@ -5,7 +5,7 @@ const ProjectSection = () => {
   return (
     <div className="w-full h-full flex flex-col items-center">
       <ProjectSectionMarquee />
-      {/* project spotlight*/}
+      {/* project spotlight */}
     </div>
   );
 };
