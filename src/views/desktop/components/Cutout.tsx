@@ -1,5 +1,5 @@
 import React from "react";
-import Pic from "@/assets/cutout.png"; // Assuming this is your image path
+import Pic from "@/assets/cutout.png";
 import Image from "next/image";
 
 const Cutout = () => {

@@ -36,7 +36,7 @@ const DesktopLanding = () => {
             Bachelor of Computer
           </a>
         </p>
-        <p className="font-semibold">Science Student</p>
+        <p className="font-semibold">Science Graduate</p>
         <p className="font-semibold">
           @{" "}
           <a
